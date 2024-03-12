@@ -1,0 +1,6 @@
+apiVersion: "pipelinesascode.tekton.dev/v1alpha1"
+kind: Repository
+metadata:
+  name: given-halibut-java-springboot-repository
+spec:
+  url: https://github.com/rhtap-hub/given-halibut-java-springboot
